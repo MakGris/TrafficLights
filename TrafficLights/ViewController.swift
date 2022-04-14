@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet var redLight: UIView!
     @IBOutlet var yellowLight: UIView!
     @IBOutlet var greenLight: UIView!
+    
     @IBOutlet var changeLightButton: UIButton!
+    
     var countLights = 0
     
     override func viewDidLoad() {
